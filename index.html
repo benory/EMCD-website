@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Concerts of Medieval and Renaissance Music, 1915–1960 – Website update in progress</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    :root {
+      --bg1: rgba(173, 216, 230, 0.25); /* light blue, transparent */
+      --bg2: rgba(224, 247, 255, 0.35); /* softer blue */
+      --text-main: #0c1a27;
+      --text-muted: #466;
+      --card-bg: rgba(255, 255, 255, 0.82);
+      --shadow: 0 8px 30px rgba(0,0,0,0.12);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-main);
+      background: linear-gradient(135deg, var(--bg1), var(--bg2));
+      animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    main {
+      background: var(--card-bg);
+      backdrop-filter: blur(8px);
+      padding: 2.8rem 2.2rem;
+      border-radius: 14px;
+      max-width: 680px;
+      width: 95%;
+      box-shadow: var(--shadow);
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+
+    h2 {
+      margin-top: 0.4rem;
+      font-weight: 500;
+      font-size: 1.15rem;
+      color: var(--text-muted);
+    }
+
+    p {
+      line-height: 1.65;
+      margin: 1.2rem 0;
+      font-size: 1.05rem;
+    }
+
+    a {
+      color: #005f99;
+    }
+
+    small {
+      display: block;
+      margin-top: 1.6rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Concerts of Medieval and Renaissance Music, 1915–1960</h1>
+    <h2>Website update in progress</h2>
+
+    <p>
+      This digital humanities resource tracks concerts of medieval and Renaissance music that took place between 1915 and 1960, when the intersection of academic scholarship and performance was strongest in Belgium, the Netherlands, the United States, and above all, the German-speaking world. This project is directed by <a href="https://benjaminory.com">Benjamin Ory</a> at KU Leuven in Belgium and is supported by a Fonds Wetenschappelijk Onderzoek (FWO) Junior Postdoctoral Fellowship.
+    </p>
+
+    <p>
+      The website is currently under construction. A new version of the site will be released in 2026. Thank you for your patience.
+    </p>
+
+    <small>
+      For questions about the project, please write to
+      <a href="mailto:benjaminory@gmail.com">benjaminory@gmail.com</a>
+    </small>
+  </main>
+</body>
+</html>
